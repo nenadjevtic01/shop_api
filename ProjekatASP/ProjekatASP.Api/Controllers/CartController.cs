@@ -53,7 +53,7 @@ namespace ProjekatASP.Api.Controllers
         ///         "Quantity" : 10 <br/>
         ///     }
         /// </remarks>
-        /// <response code="201">Successfully added to cart</response>
+        /// <response code="204">Successfully added to cart</response>
         /// <response code="401">Unauthorized</response>
         /// <response code="422">Validation error</response>
         /// <response code="500">Unexpected Server Error</response>
