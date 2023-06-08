@@ -1,0 +1,17 @@
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\bin\Debug\net6.0\ProjekatASP.Application.deps.json
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\bin\Debug\net6.0\ProjekatASP.Application.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\bin\Debug\net6.0\ProjekatASP.Application.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\bin\Debug\net6.0\ProjekatASP.DataAccess.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\bin\Debug\net6.0\ProjekatASP.Domain.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\bin\Debug\net6.0\ProjekatASP.DataAccess.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\bin\Debug\net6.0\ProjekatASP.Domain.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ProjekatASP.Application.csproj.AssemblyReference.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ProjekatASP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ProjekatASP.Application.AssemblyInfoInputs.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ProjekatASP.Application.AssemblyInfo.cs
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ProjekatASP.Application.csproj.CoreCompileInputs.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ProjekatASP.Application.csproj.CopyComplete
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ProjekatASP.Application.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\refint\ProjekatASP.Application.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ProjekatASP.Application.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Application\obj\Debug\net6.0\ref\ProjekatASP.Application.dll

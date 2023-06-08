@@ -1,0 +1,17 @@
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\net6.0\ProjekatASP.DataAccess.deps.json
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\net6.0\ProjekatASP.DataAccess.runtimeconfig.json
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\net6.0\ProjekatASP.DataAccess.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\net6.0\ProjekatASP.DataAccess.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\net6.0\ProjekatASP.Domain.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\bin\Debug\net6.0\ProjekatASP.Domain.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.csproj.AssemblyReference.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.AssemblyInfoInputs.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.AssemblyInfo.cs
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.csproj.CopyComplete
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\refint\ProjekatASP.DataAccess.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ProjekatASP.DataAccess.genruntimeconfig.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.DataAccess\obj\Debug\net6.0\ref\ProjekatASP.DataAccess.dll

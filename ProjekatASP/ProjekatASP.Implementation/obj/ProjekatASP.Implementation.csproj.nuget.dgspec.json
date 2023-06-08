@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Application\\ProjekatASP.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Application\\ProjekatASP.Application.csproj",
+        "projectName": "ProjekatASP.Application",
+        "projectPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Application\\ProjekatASP.Application.csproj",
+        "packagesPath": "C:\\Users\\nenad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nenad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.DataAccess\\ProjekatASP.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.DataAccess\\ProjekatASP.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.DataAccess\\ProjekatASP.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.DataAccess\\ProjekatASP.DataAccess.csproj",
+        "projectName": "ProjekatASP.DataAccess",
+        "projectPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.DataAccess\\ProjekatASP.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\nenad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nenad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": {
+                "projectPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj",
+        "projectName": "ProjekatASP.Domain",
+        "projectPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Domain\\ProjekatASP.Domain.csproj",
+        "packagesPath": "C:\\Users\\nenad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nenad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj",
+        "projectName": "ProjekatASP.Implementation",
+        "projectPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Implementation\\ProjekatASP.Implementation.csproj",
+        "packagesPath": "C:\\Users\\nenad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nenad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Application\\ProjekatASP.Application.csproj": {
+                "projectPath": "C:\\Users\\nenad\\Desktop\\Skola\\ASP.NET\\ProjekatASP\\ProjekatASP.Application\\ProjekatASP.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

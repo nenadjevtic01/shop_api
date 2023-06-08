@@ -1,0 +1,12 @@
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\bin\Debug\net6.0\ProjekatASP.Domain.deps.json
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\bin\Debug\net6.0\ProjekatASP.Domain.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\bin\Debug\net6.0\ProjekatASP.Domain.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\ProjekatASP.Domain.csproj.AssemblyReference.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\ProjekatASP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\ProjekatASP.Domain.AssemblyInfoInputs.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\ProjekatASP.Domain.AssemblyInfo.cs
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\ProjekatASP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\ProjekatASP.Domain.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\refint\ProjekatASP.Domain.dll
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\ProjekatASP.Domain.pdb
+C:\Users\nenad\Desktop\Skola\ASP.NET\ProjekatASP\ProjekatASP.Domain\obj\Debug\net6.0\ref\ProjekatASP.Domain.dll

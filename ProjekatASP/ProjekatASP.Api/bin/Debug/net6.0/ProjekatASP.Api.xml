@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjekatASP.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ProjekatASP.Api.Controllers.CartController.Get(System.Int32,ProjekatASP.Application.UseCases.Queries.IGetCartQuery)">
+            <summary>
+            Returns single cart.
+            </summary>
+            <remarks>
+            Sample request: GET /api/cart/id
+            </remarks>
+            <response code="200">Returns single cart</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.CartController.Post(ProjekatASP.Application.UseCases.DTO.CreateCartItemDto,ProjekatASP.Application.UseCases.Commands.ICreateCartItemCommand)">
+            <summary>
+            Add to cart
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "CartId" : 3 <br/>
+                    "ProductId" : 3 <br/>
+                    "SizeId" : 2 <br/>
+                    "Quantity" : 10 <br/>
+                }
+            </remarks>
+            <response code="201">Successfully added to cart</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.CartController.Put(ProjekatASP.Application.UseCases.DTO.UpdateCartItemDto,ProjekatASP.Application.UseCases.Commands.IUpdateCartItemCommand)">
+            <summary>
+            Update cart item
+            </summary>
+            <remarks>
+            Sample request: 
+                PUT 
+                {
+                    "CartItemId" : 3 <br/>
+                    "CartId": 2 <br/>
+                    "ProductId" : 3 <br/>
+                    "SizeId" : 2 <br/>
+                    "Quantity" : 10 <br/>
+                }
+            </remarks>
+            <response code="204">Cart item updated</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.CartController.Delete(System.Int32,ProjekatASP.Application.UseCases.Commands.IDeleteCartItemCommand)">
+            <summary>
+            Delete cart item
+            </summary>
+            <remarks>
+            Sample request: DELETE /api/cart/id
+            </remarks>
+            <response code="204">Cart item deleted</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.CategoriesController.Get(ProjekatASP.Application.UseCases.DTO.PagedSearchDto,ProjekatASP.Application.UseCases.Queries.IGetCategoryQuery)">
+            <summary>
+            Returns filtered categories.
+            </summary>
+            <remarks>
+            Sample request: GET /api/categories?keyword=c&amp;perPage=10
+            </remarks>
+            <response code="200">Returns categories</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.CategoriesController.Post(ProjekatASP.Application.UseCases.DTO.CreateCategoryDto,ProjekatASP.Application.UseCases.Commands.ICreateCategoryCommand)">
+            <summary>
+            Add category
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "Name" : "Category 1" <br/>
+                }
+            </remarks>
+            <response code="201">Successfully added category</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.InitialController.Post(ProjekatASP.Application.UseCases.Commands.IFillDatabaseCommand)">
+            <summary>
+            Initial insert to database
+            </summary>
+            <response code="204">Successfully inserted to database</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ProductsController.Get(ProjekatASP.Application.UseCases.DTO.SearchProductDto,ProjekatASP.Application.UseCases.Queries.IGetProductQuery)">
+            <summary>
+            Returns filtered products
+            </summary>
+            <remarks>
+            Sample request: GET /api/products?categoryid=2&amp;minimumprice=20&amp;maximumprice=150&amp;perPage=10
+            </remarks>
+            <response code="200">Returns filtered products</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ProductsController.Get(System.Int32,ProjekatASP.Application.UseCases.Queries.IGetSingleProductQuery)">
+            <summary>
+            Returns single products.
+            </summary>
+            <remarks>
+            Sample request: GET /api/products/5
+            </remarks>
+            <response code="200">Returns single product</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ProductsController.Post(ProjekatASP.Application.UseCases.DTO.CreateProductDto,ProjekatASP.Application.UseCases.Commands.ICreateProductCommand)">
+            <summary>
+            Add product
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "ProductName" : "Product 12" <br/>
+                    "CategoryId" : 3 <br/>
+                    "BrandId" : 2 <br/>
+                    "GenderId" : 1 <br/>
+                    "Sale" : true <br/>
+                    "InStock" :true <br/>
+                    "Material" : "Material 10" <br/>
+                    "CountryOfOrigin" : "Country 2" <br/>
+                    "Price" : 
+                    {
+                        "Price" : 99,
+                        "ActiveFrom" : "2023-06-07"
+                    }<br/>
+                    "Pictures" : 
+                    [
+                    {
+                        "Src":"slika1.jpg",
+                        "Alt":"alt1.jpg"
+                    },
+                    {
+                        "Src":"slika2.jpg",
+                        "Alt":"alt2.jpg"
+                    }
+                    ],
+                    "Sizes" : [1,2,3]
+                }
+            </remarks>
+            <response code="201">Successfully added</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ProductsController.PostPrice(ProjekatASP.Application.UseCases.DTO.CreatePriceDto,ProjekatASP.Application.UseCases.Commands.IAddProductPriceCommand)">
+            <summary>
+            Add product price
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "ProductId" : 3 <br/>
+                    "Price" : 69.99 <br/>
+                    "ValidFrom" : "2023-06-06" <br/>
+                }
+            </remarks>
+            <response code="201">Successfully added price</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ProductsController.Delete(System.Int32,ProjekatASP.Application.UseCases.Commands.IDeleteProductCommand)">
+            <summary>
+            Delete product
+            </summary>
+            <remarks>
+            Sample request: DELETE /api/products/id
+            </remarks>
+            <response code="204">Product deleted</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ReceiptController.Get(ProjekatASP.Application.UseCases.DTO.SearchReceiptDto,ProjekatASP.Application.UseCases.Queries.IGetReceiptsQuery)">
+            <summary>
+            Filter receipts
+            </summary>
+            <remarks>
+            Sample request: 
+                GET 
+                {
+                    "FromDate" : "2023-06-06" <br/>
+                    "ToDate" : "2023-06-08" <br/>
+                    "UserId" : 3 <br/>
+                }
+            </remarks>
+            <response code="200">Returns filtered receipts</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ReceiptController.Get(System.Int32,ProjekatASP.Application.UseCases.Queries.IGetSingleReceiptQuery)">
+            <summary>
+            Filter receipts
+            </summary>
+            <remarks>
+            Sample request: GET /api/cart/id
+            </remarks>
+            <response code="200">Returns single receipt</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ReceiptController.Post(System.Int32,ProjekatASP.Application.UseCases.Commands.IConfirmOrderCommand)">
+            <summary>
+            Confirms order
+            </summary>
+            <remarks>
+            Sample request: POST /api/cart/id
+            </remarks>
+            <response code="204"> Order confirmed</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.ReceiptController.Delete(System.Int32,ProjekatASP.Application.UseCases.Commands.IDeleteReceiptCommand)">
+            <summary>
+            Deletes receipts
+            </summary>
+            <remarks>
+            Sample request: DELETE /api/cart/id
+            </remarks>
+            <response code="204"> Receipt deleted</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.UserController.Get(ProjekatASP.Application.UseCases.DTO.PagedSearchDto,ProjekatASP.Application.UseCases.Queries.IGetUserQuery)">
+            <summary>
+            Returns filtered users.
+            </summary>
+            <remarks>
+            Sample request: GET /api/users?keyword=c&amp;perPage=10
+            </remarks>
+            <response code="200">Returns filtered users</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.UserController.Token(ProjekatASP.Api.Core.DTO.TokenRequestDto)">
+            <summary>
+            Login
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "Email" : "user@gmail.com" <br/>
+                    "Password" : "Sifra123"
+                }
+            </remarks>
+            <response code="200">Token generated</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.UserController.Post(ProjekatASP.Application.UseCases.DTO.CreateUserDto,ProjekatASP.Application.UseCases.Commands.ICreateUserCommand)">
+            <summary>
+            Add user
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "FirstName" : "Mika" <br/>
+                    "LastName" : "Mikic" <br/>
+                    "Email" : "mikamikic@gmail.com" <br/>
+                    "Password" : "Sifra123" <br/>
+                    "UserName" : "mikamikic123" <br/>
+                    "Address" : "Adresa 1" <br/>
+                    "City" : "Grad" <br/>
+                    "PostalCode" : 11000 <br/>
+                    "Country" : "Srbija"
+                }
+            </remarks>
+            <response code="201">Successfully added user</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:ProjekatASP.Api.Controllers.UserController.Put(ProjekatASP.Application.UseCases.DTO.UpdateUserInfoDto,ProjekatASP.Application.UseCases.Commands.IUpdateUserInfoCommand)">
+            <summary>
+            Update user
+            </summary>
+            <remarks>
+            Sample request: 
+                PUT 
+                {
+                    "UserId" : 3 <br/>
+                    "Address": "Adresa 2" <br/>
+                    "City" : "Grad 2" <br/>
+                    "PostalCode" : 11200 <br/>
+                    "Country" : "Drzava 2" <br/>
+                }
+            </remarks>
+            <response code="204">User updated</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+    </members>
+</doc>
