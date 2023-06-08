@@ -53,7 +53,7 @@ namespace ProjekatASP.Api.Controllers
         /// Filter receipts
         /// </summary>
         /// <remarks>
-        /// Sample request: GET /api/cart/id
+        /// Sample request: GET /api/receipt/id
         /// </remarks>
         /// <response code="200">Returns single receipt</response>
         /// <response code="401">Unauthorized</response>
@@ -72,7 +72,7 @@ namespace ProjekatASP.Api.Controllers
         /// Confirms order
         /// </summary>
         /// <remarks>
-        /// Sample request: POST /api/cart/id
+        /// Sample request: POST /api/receipt/id
         /// </remarks>
         /// <response code="204"> Order confirmed</response>
         /// <response code="401">Unauthorized</response>
@@ -93,7 +93,7 @@ namespace ProjekatASP.Api.Controllers
         /// Deletes receipts
         /// </summary>
         /// <remarks>
-        /// Sample request: DELETE /api/cart/id
+        /// Sample request: DELETE /api/receipt/id
         /// </remarks>
         /// <response code="204"> Receipt deleted</response>
         /// <response code="401">Unauthorized</response>
